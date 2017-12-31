@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B48" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Keyword" representedClassName="Keyword" syncable="YES" codeGenerationType="class">
+        <attribute name="chapterId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eg_1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eg_2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egMeaning_1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egMeaning_2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egPronun_1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="egPronun_2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasChecked" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keyword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keywordImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meaning_1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meaning_2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noteAdded" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pronunciation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Keyword" positionX="-63" positionY="-18" width="128" height="315"/>
+    </elements>
+</model>
